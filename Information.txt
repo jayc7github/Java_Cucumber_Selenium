@@ -1,0 +1,62 @@
+
+=========================================Test======================================
+
+Please write the selenium test (Java) for the following:
+Data for this test exists on https://www.contextures.com/xlSampleData01.html
+1. Please answer the following questions (by test, of course, make the tests general):
+a. How many different items are there (binder/pencil etc.) ?
+b. Is there an item with less than 5 units?
+c. Is there a pencil with less than 5 units?
+d. What is the most expensive item on the list?
+2. Test that the excel download button works and downloads the file
+
+
+====================================Approach============================================
+Complete Framework:
+Maven - POM file for t he project dependenciecs
+JUnit as the test runner
+Cucumber, Gherkin to write the BDD framework script
+Selenium as the automation tool for front end
+Chromedriver installed to specific folder
+Project folder structure to maintain a framework
+
+====================================Feature File==========================================
+Feature: Automated End2End Tests
+Description: The purpose of this feature is to run End2End tests
+
+Scenario: User gets to know the which items are ordered
+Given the user is on the sample data webpage
+When the user is looking how many distinct items are there in the orders
+Then the user sees the distinct items in the orders
+
+Scenario: User gets to know if there are items with order quantity less than 5 units
+Given the user is on the sample data webpage
+When the user is looking if there are orders with quantity less than 5 units
+Then the user sees the orders with quantity less than 5 units
+
+Scenario: User gets to know if there are pencils with order quantity less than 5 units 	
+Given the user is on the sample data webpage
+When the user is looking if there are orders for pencils with quantity less than 5 units
+Then the user sees the orders for pencils with quantity less than 5 units
+
+Scenario: User gets to know the expensive item on the list
+Given the user is on the sample data webpage
+When the user is looking for the most expensive item in the list
+Then the user sees the most expensive item in the list
+
+Scenario: User downloads the order excel file via the link
+Given the user is on the sample data webpage
+When the user clicks the download excel link
+Then the file is downloaded to the system
+
+======================================Screenshots==========================================
+As in the folder
+
+==================================================Improvements==============================
+Moving the Browser Open and close to annotation, prior to all the feature tests
+Place the test data to testfiles and files provider.
+Moving the support functions to a common package called library
+Beautification of the code
+Integrate any plugins and generate HTML report post execution.
+Webdriver to call other browsers
+
