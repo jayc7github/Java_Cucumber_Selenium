@@ -1,0 +1,56 @@
+Starting ChromeDriver 75.0.3770.90 (a6dcaf7e3ec6f70a194cc25e8149475c6590e025-refs/branch-heads/3770@{#1003}) on port 47289
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Jun 21, 2019 2:43:44 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+ Total rows : 44
+ Total Columns : 7
+The user is looking for distinct items in the orders
+	distinct items in the orders are:   
+Binder
+Pen Set
+Pen
+Desk
+Pencil
+Starting ChromeDriver 75.0.3770.90 (a6dcaf7e3ec6f70a194cc25e8149475c6590e025-refs/branch-heads/3770@{#1003}) on port 48926
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Jun 21, 2019 2:44:34 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+ Total rows : 44
+ Total Columns : 7
+The user is looking if there are orders with quantity less than 5 units    
+		Orders with quantity less than 5 units    
+Region: West Rep: Sorvino Item: Desk Units: 3
+Region: Central Rep: Smith Item: Desk Units: 2
+Region: East Rep: Jones Item: Binder Units: 4
+Starting ChromeDriver 75.0.3770.90 (a6dcaf7e3ec6f70a194cc25e8149475c6590e025-refs/branch-heads/3770@{#1003}) on port 21651
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Jun 21, 2019 2:45:23 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+ Total rows : 44
+ Total Columns : 7
+The user is looking if there are orders for pencils with quantity less than 5 units    
+	Orders for pencils with quantity less than 5 units    
+Starting ChromeDriver 75.0.3770.90 (a6dcaf7e3ec6f70a194cc25e8149475c6590e025-refs/branch-heads/3770@{#1003}) on port 48217
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Jun 21, 2019 2:46:14 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+ Total rows : 44
+ Total Columns : 7
+The user is looking for the most expensive item in the list:    
+	Most expensive item from the test data is:    
+		Desk : priced at 275.0
+Starting ChromeDriver 75.0.3770.90 (a6dcaf7e3ec6f70a194cc25e8149475c6590e025-refs/branch-heads/3770@{#1003}) on port 12231
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Jun 21, 2019 2:47:00 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+ Total rows : 44
+ Total Columns : 7
+
+5 Scenarios ([32m5 passed[0m)
+15 Steps ([32m15 passed[0m)
+4m13.125s
